@@ -1,3 +1,5 @@
+
+
 score = 0 
 
 # QUESTION 1 
@@ -15,7 +17,7 @@ else:
 
 # QUESTION 2 
 answer2 = input("In which state is Bridsville found? \na. New South Wales \nb. South Australia  \nc. Queensland \nAnswer: ")
-if answer2 == "c" or answer1 == "Queensland": 
+if answer2 == "c" or answer2 == "Queensland": 
   score  += 1 
   print("correct!")
   print("score: ", score)
