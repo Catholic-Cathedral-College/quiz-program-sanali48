@@ -1,5 +1,12 @@
+name = input ("enter your name : ")
+print("hello",name,"welcome to the quiz world")
+playing = input ("do you want to play? ")
 
+if playing != "yes": 
+  quit ()
 
+print ("okay! Let's play! :)")
+  
 score = 0 
 
 # QUESTION 1 
