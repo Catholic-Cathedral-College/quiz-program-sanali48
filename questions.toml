@@ -155,15 +155,102 @@ label = "Capitals"
     """
 
     [[capitals.questions]]
-    question = "what is the capital of Australia"
-    answers = ["Canberra"]
-    alternatives = ["Sydney", "Melbourne", "Perth", "Gold Coast"]
-    hint = "has a NASA base"
+    question = "what is the capital of Philippines"
+    answers = ["Manila"]
+    alternatives = ["Cebu", "Makati", "Quezon", "Caloocan"]
+    hint = "there's a secret tunnel in the city"
     explanation = """
-    The name Canberra is a derivation of an aboriginal term meaning "meeting place." 
-    The city evolved frm a small squatters' settlement of stockmen which was there as easly as 1824,
-    called Canberry or canbury. By 1836, the name had evolved to Canberra.
+    The name manila came form a flower.It became the capital city of philippines because 
+    Manila became the center of transportaion,commerce, culture and education.
     """
+
+    [[capitals.questions]]
+    question = "what is the capital of Thailand"
+    answers = ["Bangkok"]
+    alternatives = ["Chiang mai", "Phuket", "Thani", "Pattaya"]
+    hint = "known as city of angels"
+    explanation = """
+    bangkok is a very popular asian city that people travel 
+   to.Bangkok is also knows as the home of
+   Redbull.
+    """
+
+    [[capitals.questions]]
+    question = "what is the capital of South Korea"
+    answers = ["Seoul"]
+    alternatives = ["Busan", "Incheon", "Daegu", "Gwangju"]
+    hint = "its the 3rd largest city in the world"
+    explanation = """
+    seoul is know for its vibrant districts, eclectic fashion scense,delicious street food, and being the the birthplace of Kpop. 
+    """
+
+    [[capitals.questions]]
+    question = "what is the capital of China"
+    answers = ["Beijing"]
+    alternatives = ["Shanghai", "Wuhan", "Chengdu", "Shenzhen"]
+    hint = "One of the Oldest cities in the world"
+    explanation = """
+    The city is renowned for its opulent palaces, temples, parks, gardens, tombs, walls and gates. Beijing is one of the most 
+   important tourist destinations of the world. In 2018, Beijing was the second highest earning tourist city in the world after Shanghai. 
+    """
+
+    [[capitals.questions]]
+    question = "what is the capital of Brazil"
+    answers = ["Brasillia"]
+    alternatives = ["sao Paulo", "Rio de Janeiro", "Manaus", "Belem"]
+    hint = "It has a similar name as brazil"
+    explanation = """
+    The Brasillia city of Brazil is the largest country in South America. Brazil is the home to the second largest river in the world. 
+    """
+
+    [[capitals.questions]]
+    question = "what is the capital of US"
+    answers = ["Washington DC"]
+    alternatives = ["New York", "Chicago", "Los Angeles", "Miami"]
+    hint = "It grows the most apples in the US."
+    explanation = """
+    When the washington Monument opened on october9 , 1888, it was the tallest man made structure in the world.
+    """
+
+    [[capitals.questions]]
+    question = "what is the capital of canada"
+    answers = ["Ottawa"]
+    alternatives = ["Toronto", "Montreal", "Kingston", "CalGary"]
+    hint = "Largest ice skating rink in the world."
+    explanation = """
+    The name ottawa comes from the Algonquin word adawe which means to trade, so it always been an important business centre.Ottawa is the seventh coldest city in the world.
+"""
+
+    [[capitals.questions]]
+    question = "what is the capital of New Zealand"
+    answers = ["Wellington"]
+    alternatives = ["Aukland", "Christchurch", "Dunedin", "Invercagil"]
+    hint = "faced one of the worse earthquakes in 2011"
+    explanation = """
+    Christchurch is located in the south island, christchurch have a lot of green spaces such a lot fo parks and trees. 
+    """
+
+    [[capitals.questions]]
+    question = "what is the capital of Japan"
+    answers = ["Tokyo"]
+    alternatives = ["Osaka", "Kyoto", "Kobe", "sendai"]
+    hint = "olympic was held there "
+    explanation = """
+    Tokyo is one of the largest cities in the world and the most popular city in japan also know for holding olympics. 
+    """
+
+    [[capitals.questions]]
+    question = "what is the capital of Sri lanka"
+    answers = ["Colombo"]
+    alternatives = ["Osaka", "Kyoto", "Kobe", "sendai"]
+    hint = "It starts with a letter c "
+    explanation = """
+Colombo is the largest city in sri lanka as the population, it is known to be rich in culture , and natural beauty with lot of mountains and green land. 
+    """
+
+
+
+
 
      
 

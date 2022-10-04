@@ -1,7 +1,10 @@
-# quiz.py
+# main.py
+#first of all in this quiz it will ask you name and welcome you to the quiz world.
 name = input ("enter your name : ")
 print("hello",name,"welcome to the quiz world")
 playing = input ("do you want to play? ") .lower() .strip()
+
+
 
 if playing != "yes": 
   quit ()
@@ -10,20 +13,21 @@ if playing != "yes":
 print ("okay! Let's play!")
 print("\n")
 
+#this function is to print out the instructions and explain what the game is about and how it works. 
 def print_instructions():
   print ("Thank you for choosing to play this game 🤩")
   print("In this game you will be tested on your general knowlege")
   print("you will be given two main topics to choose from and you can choose them by typing either a or b")
   print("\n")
   print("for some questions you will be given hints, so make sure to use them if you dont know the answer 🤔")
-  print("for each main topic there will be 10 questions")
+  print("for each main topic there will be 13 questions 👍🏻")
   print("\n")
 
 
 score = 0 
 print_instructions()
 
-
+#there will be 13 questions on each topics and after the score will add up together and tell the user how many qiestionsthe user got right. :)
 
 import pathlib
 import random
@@ -34,9 +38,9 @@ try:
 except ModuleNotFoundError:
     import tomli as tomllib
 
-NUM_QUESTIONS_PER_QUIZ = 5
+NUM_QUESTIONS_PER_QUIZ = 13
 QUESTIONS_PATH = pathlib.Path(__file__).parent / "questions.toml"
-
+#in this part i attached the questions.toml file to the main.py file. 
 
 def run_quiz():
     questions = prepare_questions(
@@ -129,3 +133,6 @@ def get_answers(question, alternatives, num_choices=1, hint=None):
 
 if __name__ == "__main__":
     run_quiz() 
+
+
+#the function above is for the errors if the user use any answers that are not used to be used such as if there is a choice of a and b and they tyoe c , it will show that its not a valid answer and tell the user to pick either a or b. to basically handle invalid answers. 
